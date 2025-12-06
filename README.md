@@ -1,2 +1,41 @@
 # realtime-application-tier-php
-Studi kasus pengembangan aplikasi perangkat lunak desktop cross-platform real-time menggunakan websocket server dengan pendekatan &lt;b>3-Tier Architecture Pattern&lt;/b> (client-tier, application-tier, data-tier) dan &lt;b>Layered Architecture Pattern&lt;/b> (presentation layer, business logic layer, data access layer, data source layer).
+Studi kasus pengembangan aplikasi perangkat lunak desktop cross-platform real-time menggunakan websocket server dengan pendekatan <b>3-Tier Architecture Pattern</b> (client-tier, application-tier, data-tier) dan <b>Layered Architecture Pattern</b> (presentation layer, business logic layer, data access layer, data source layer).
+
+<h3>3-Tier Architecture Pattern + WebSocket Server</h3>
+<ol>
+  <li><b>Realtime Client-Tier (Java Swing)</b> https://github.com/fachrulpbm/realtime-client-tier-swing</li>
+    <ul>
+      <li><b>Presentation Layer</b> (MVC Pattern)</li>
+        <ul>
+          <li>model</li>
+          <li>view</li>
+          <li>controller</li>
+          <li>worker (background thread)</li>
+          <li>api</li>
+        </ul>
+    </ul>
+  <li><b>Realtime Application-Tier (PHP Native)</b> https://github.com/fachrulpbm/realtime-application-tier-php</li>
+    <ul>
+      <li><b>Business Logic Layer</b> (Service Layer Pattern)</li>
+        <ul>
+          <li>services</li>
+          <li>core/App</li>
+          <li>core/Controller</li>
+          <li>controllers</li>
+        </ul>
+      <li><b>Data Access Layer</b> (DAO Pattern)</li>
+        <ul>
+          <li>core/Model</li>
+          <li>models</li>
+          <li>config</li>
+        </ul>
+    </ul>
+  <li><b>Data-Tier (DBMS MySQL)</b></li>
+    <ul>
+      <li><b>Data Source Layer</b></li>
+        <ul>
+          <li>Database Engine</li>
+        </ul>
+    </ul>
+  <li><b>Realtime Websocket Server (Node.js + Socket.IO)</b> https://github.com/fachrulpbm/realtime-websocket-server</li>
+</ol>
