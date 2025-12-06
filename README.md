@@ -37,5 +37,5 @@ Studi kasus pengembangan aplikasi perangkat lunak desktop cross-platform real-ti
           <li>Database Engine</li>
         </ul>
     </ul>
-  <li><b>Realtime Websocket Server (Node.js + Socket.IO)</b> https://github.com/fachrulpbm/realtime-websocket-server</li>
+  <li><b>Realtime Websocket Server (Node.js + WS)</b> https://github.com/fachrulpbm/realtime-websocket-server</li>
 </ol>
